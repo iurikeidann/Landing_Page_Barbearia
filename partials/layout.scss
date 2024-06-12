@@ -210,3 +210,26 @@
     background-color: $white-normal;
     z-index: 99;
 }
+
+.haircut-info button{
+    color: $white-normal;
+    background-color: $red-normal;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border:0;
+    cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+    .haircuts {
+        flex-direction: column;
+    }
+
+    .haircut img{
+        max-width: 740px;
+    }
+}
+
+//--------------------------------
+
+// Footer
