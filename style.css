@@ -65,9 +65,15 @@ i {
     align-items: center;
     justify-content: center;
   }
+  .header-content i {
+    margin-top: 16px;
+  }
   .header-logo img {
     width: 160px;
     margin-top: 46px;
+  }
+  .header-button {
+    display: none;
   }
 }
 body {
